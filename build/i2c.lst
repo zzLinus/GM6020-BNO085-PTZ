@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccUNDrWj.s 			page 1
+ARM GAS  /tmp/ccGV9bB8.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -19,15 +19,15 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccUNDrWj.s 			page 1
   16              		.text
   17              	.Ltext0:
   18              		.cfi_sections	.debug_frame
-  19              		.section	.text.MX_I2C2_Init,"ax",%progbits
-  20              		.align	1
-  21              		.global	MX_I2C2_Init
-  22              		.syntax unified
-  23              		.thumb
-  24              		.thumb_func
-  26              	MX_I2C2_Init:
-  27              	.LFB130:
-  28              		.file 1 "Core/Src/i2c.c"
+  19              		.file 1 "Core/Src/i2c.c"
+  20              		.section	.text.MX_I2C2_Init,"ax",%progbits
+  21              		.align	1
+  22              		.global	MX_I2C2_Init
+  23              		.syntax unified
+  24              		.thumb
+  25              		.thumb_func
+  27              	MX_I2C2_Init:
+  28              	.LFB130:
    1:Core/Src/i2c.c **** /* USER CODE BEGIN Header */
    2:Core/Src/i2c.c **** /**
    3:Core/Src/i2c.c ****   ******************************************************************************
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccUNDrWj.s 			page 1
   28:Core/Src/i2c.c **** 
   29:Core/Src/i2c.c **** /* I2C2 init function */
   30:Core/Src/i2c.c **** void MX_I2C2_Init(void)
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccUNDrWj.s 			page 2
+ARM GAS  /tmp/ccGV9bB8.s 			page 2
 
 
   31:Core/Src/i2c.c **** {
@@ -95,10 +95,10 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccUNDrWj.s 			page 1
   48              		.loc 1 42 24 is_stmt 0 view .LVU6
   49 000c 0023     		movs	r3, #0
   50 000e 8360     		str	r3, [r0, #8]
-  43:Core/Src/i2c.c ****   hi2c2.Init.OwnAddress1 = 0x1A;
+  43:Core/Src/i2c.c ****   hi2c2.Init.OwnAddress1 = 52;
   51              		.loc 1 43 3 is_stmt 1 view .LVU7
   52              		.loc 1 43 26 is_stmt 0 view .LVU8
-  53 0010 1A22     		movs	r2, #26
+  53 0010 3422     		movs	r2, #52
   54 0012 C260     		str	r2, [r0, #12]
   44:Core/Src/i2c.c ****   hi2c2.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
   55              		.loc 1 44 3 is_stmt 1 view .LVU9
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccUNDrWj.s 			page 1
   66              		.loc 1 47 30 is_stmt 0 view .LVU16
   67 001e C361     		str	r3, [r0, #28]
   48:Core/Src/i2c.c ****   hi2c2.Init.NoStretchMode = I2C_NOSTRETCH_DISABLE;
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccUNDrWj.s 			page 3
+ARM GAS  /tmp/ccGV9bB8.s 			page 3
 
 
   68              		.loc 1 48 3 is_stmt 1 view .LVU17
@@ -129,7 +129,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccUNDrWj.s 			page 1
   72              		.loc 1 49 7 is_stmt 0 view .LVU20
   73 0022 FFF7FEFF 		bl	HAL_I2C_Init
   74              	.LVL0:
-  75              		.loc 1 49 6 view .LVU21
+  75              		.loc 1 49 6 discriminator 1 view .LVU21
   76 0026 00B9     		cbnz	r0, .L4
   77              	.L1:
   50:Core/Src/i2c.c ****   {
@@ -152,7 +152,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccUNDrWj.s 			page 1
   86              	.L6:
   87              		.align	2
   88              	.L5:
-  89 0030 00000000 		.word	.LANCHOR0
+  89 0030 00000000 		.word	hi2c2
   90 0034 00580040 		.word	1073764352
   91 0038 A0860100 		.word	100000
   92              		.cfi_endproc
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccUNDrWj.s 			page 1
  111              	.LCFI1:
  112              		.cfi_def_cfa_offset 12
  113              		.cfi_offset 4, -12
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccUNDrWj.s 			page 4
+ARM GAS  /tmp/ccGV9bB8.s 			page 4
 
 
  114              		.cfi_offset 5, -8
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccUNDrWj.s 			page 1
   93:Core/Src/i2c.c **** }
  136              		.loc 1 93 1 view .LVU32
  137 0018 09B0     		add	sp, sp, #36
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccUNDrWj.s 			page 5
+ARM GAS  /tmp/ccGV9bB8.s 			page 5
 
 
  138              	.LCFI3:
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccUNDrWj.s 			page 1
   78:Core/Src/i2c.c ****     HAL_GPIO_Init(GPIOF, &GPIO_InitStruct);
  178              		.loc 1 78 31 is_stmt 0 view .LVU47
  179 003e 0423     		movs	r3, #4
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccUNDrWj.s 			page 6
+ARM GAS  /tmp/ccGV9bB8.s 			page 6
 
 
  180 0040 0793     		str	r3, [sp, #28]
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccUNDrWj.s 			page 1
  222 007a FFF7FEFF 		bl	HAL_NVIC_EnableIRQ
  223              	.LVL10:
  224              		.loc 1 93 1 is_stmt 0 view .LVU60
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccUNDrWj.s 			page 7
+ARM GAS  /tmp/ccGV9bB8.s 			page 7
 
 
  225 007e CBE7     		b	.L7
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccUNDrWj.s 			page 1
  105:Core/Src/i2c.c **** 
  106:Core/Src/i2c.c ****     /**I2C2 GPIO Configuration
  107:Core/Src/i2c.c ****     PF0     ------> I2C2_SDA
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccUNDrWj.s 			page 8
+ARM GAS  /tmp/ccGV9bB8.s 			page 8
 
 
  108:Core/Src/i2c.c ****     PF1     ------> I2C2_SCL
@@ -469,44 +469,43 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccUNDrWj.s 			page 1
  301              		.global	hi2c2
  302              		.section	.bss.hi2c2,"aw",%nobits
  303              		.align	2
- 304              		.set	.LANCHOR0,. + 0
- 307              	hi2c2:
- 308 0000 00000000 		.space	84
- 308      00000000 
- 308      00000000 
- 308      00000000 
- 308      00000000 
- 309              		.text
- 310              	.Letext0:
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccUNDrWj.s 			page 9
+ 306              	hi2c2:
+ 307 0000 00000000 		.space	84
+ 307      00000000 
+ 307      00000000 
+ 307      00000000 
+ 307      00000000 
+ 308              		.text
+ 309              	.Letext0:
+ 310              		.file 2 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h"
+ARM GAS  /tmp/ccGV9bB8.s 			page 9
 
 
- 311              		.file 2 "c:\\program files (x86)\\gnu arm embedded toolchain\\10 2021.10\\arm-none-eabi\\include\\
- 312              		.file 3 "c:\\program files (x86)\\gnu arm embedded toolchain\\10 2021.10\\arm-none-eabi\\include\\
- 313              		.file 4 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h"
- 314              		.file 5 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h"
- 315              		.file 6 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h"
- 316              		.file 7 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h"
- 317              		.file 8 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h"
- 318              		.file 9 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h"
- 319              		.file 10 "Core/Inc/main.h"
- 320              		.file 11 "Core/Inc/i2c.h"
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccUNDrWj.s 			page 10
+ 311              		.file 3 "/usr/arm-none-eabi/include/machine/_default_types.h"
+ 312              		.file 4 "/usr/arm-none-eabi/include/sys/_stdint.h"
+ 313              		.file 5 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h"
+ 314              		.file 6 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h"
+ 315              		.file 7 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h"
+ 316              		.file 8 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h"
+ 317              		.file 9 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h"
+ 318              		.file 10 "Core/Inc/i2c.h"
+ 319              		.file 11 "Core/Inc/main.h"
+ARM GAS  /tmp/ccGV9bB8.s 			page 10
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 i2c.c
-C:\Users\FIsh\AppData\Local\Temp\ccUNDrWj.s:20     .text.MX_I2C2_Init:00000000 $t
-C:\Users\FIsh\AppData\Local\Temp\ccUNDrWj.s:26     .text.MX_I2C2_Init:00000000 MX_I2C2_Init
-C:\Users\FIsh\AppData\Local\Temp\ccUNDrWj.s:89     .text.MX_I2C2_Init:00000030 $d
-C:\Users\FIsh\AppData\Local\Temp\ccUNDrWj.s:96     .text.HAL_I2C_MspInit:00000000 $t
-C:\Users\FIsh\AppData\Local\Temp\ccUNDrWj.s:102    .text.HAL_I2C_MspInit:00000000 HAL_I2C_MspInit
-C:\Users\FIsh\AppData\Local\Temp\ccUNDrWj.s:229    .text.HAL_I2C_MspInit:00000080 $d
-C:\Users\FIsh\AppData\Local\Temp\ccUNDrWj.s:236    .text.HAL_I2C_MspDeInit:00000000 $t
-C:\Users\FIsh\AppData\Local\Temp\ccUNDrWj.s:242    .text.HAL_I2C_MspDeInit:00000000 HAL_I2C_MspDeInit
-C:\Users\FIsh\AppData\Local\Temp\ccUNDrWj.s:295    .text.HAL_I2C_MspDeInit:00000038 $d
-C:\Users\FIsh\AppData\Local\Temp\ccUNDrWj.s:307    .bss.hi2c2:00000000 hi2c2
-C:\Users\FIsh\AppData\Local\Temp\ccUNDrWj.s:303    .bss.hi2c2:00000000 $d
+     /tmp/ccGV9bB8.s:21     .text.MX_I2C2_Init:00000000 $t
+     /tmp/ccGV9bB8.s:27     .text.MX_I2C2_Init:00000000 MX_I2C2_Init
+     /tmp/ccGV9bB8.s:89     .text.MX_I2C2_Init:00000030 $d
+     /tmp/ccGV9bB8.s:306    .bss.hi2c2:00000000 hi2c2
+     /tmp/ccGV9bB8.s:96     .text.HAL_I2C_MspInit:00000000 $t
+     /tmp/ccGV9bB8.s:102    .text.HAL_I2C_MspInit:00000000 HAL_I2C_MspInit
+     /tmp/ccGV9bB8.s:229    .text.HAL_I2C_MspInit:00000080 $d
+     /tmp/ccGV9bB8.s:236    .text.HAL_I2C_MspDeInit:00000000 $t
+     /tmp/ccGV9bB8.s:242    .text.HAL_I2C_MspDeInit:00000000 HAL_I2C_MspDeInit
+     /tmp/ccGV9bB8.s:295    .text.HAL_I2C_MspDeInit:00000038 $d
+     /tmp/ccGV9bB8.s:303    .bss.hi2c2:00000000 $d
 
 UNDEFINED SYMBOLS
 HAL_I2C_Init

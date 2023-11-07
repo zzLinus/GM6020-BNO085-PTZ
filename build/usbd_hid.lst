@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
+ARM GAS  /tmp/ccShtuqU.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -19,15 +19,15 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
   16              		.text
   17              	.Ltext0:
   18              		.cfi_sections	.debug_frame
-  19              		.section	.text.USBD_HID_DataIn,"ax",%progbits
-  20              		.align	1
-  21              		.syntax unified
-  22              		.thumb
-  23              		.thumb_func
-  25              	USBD_HID_DataIn:
-  26              	.LVL0:
-  27              	.LFB142:
-  28              		.file 1 "Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c"
+  19              		.file 1 "Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c"
+  20              		.section	.text.USBD_HID_DataIn,"ax",%progbits
+  21              		.align	1
+  22              		.syntax unified
+  23              		.thumb
+  24              		.thumb_func
+  26              	USBD_HID_DataIn:
+  27              	.LVL0:
+  28              	.LFB142:
    1:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c **** /**
    2:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   ******************************************************************************
    3:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   * @file    usbd_hid.c
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
   28:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   *             - Usage Page : Generic Desktop
   29:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   *             - Usage : Joystick
   30:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   *             - Collection : Application
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 2
+ARM GAS  /tmp/ccShtuqU.s 			page 2
 
 
   31:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   *
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
   85:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c **** 
   86:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c **** /** @defgroup USBD_HID_Private_FunctionPrototypes
   87:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   * @{
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 3
+ARM GAS  /tmp/ccShtuqU.s 			page 3
 
 
   88:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   */
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  142:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   0x01,                                               /* bConfigurationValue: Configuration value *
  143:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   0x00,                                               /* iConfiguration: Index of string descriptor
  144:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****                                                          describing the configuration */
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 4
+ARM GAS  /tmp/ccShtuqU.s 			page 4
 
 
  145:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c **** #if (USBD_SELF_POWERED == 1U)
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  199:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   HID_MOUSE_REPORT_DESC_SIZE,                         /* wItemLength: Total length of Report descri
  200:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   0x00,
  201:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c **** };
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 5
+ARM GAS  /tmp/ccShtuqU.s 			page 5
 
 
  202:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c **** 
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  256:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   0x75, 0x06,        /*   Report Size (6)                      */
  257:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   0x95, 0x01,        /*   Report Count (1)                     */
  258:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   0xB1, 0x01,        /*   Feature (Const,Array,Abs,NoWrp)      */
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 6
+ARM GAS  /tmp/ccShtuqU.s 			page 6
 
 
  259:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   0xC0               /* End Collection                         */
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  313:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c **** 
  314:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   hhid->state = HID_IDLE;
  315:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c **** 
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 7
+ARM GAS  /tmp/ccShtuqU.s 			page 7
 
 
  316:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   return (uint8_t)USBD_OK;
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  370:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   switch (req->bmRequest & USB_REQ_TYPE_MASK)
  371:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   {
  372:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****     case USB_REQ_TYPE_CLASS :
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 8
+ARM GAS  /tmp/ccShtuqU.s 			page 8
 
 
  373:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****       switch (req->bRequest)
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  427:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****             break;
  428:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****           }
  429:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****           (void)USBD_CtlSendData(pdev, pbuf, len);
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 9
+ARM GAS  /tmp/ccShtuqU.s 			page 9
 
 
  430:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****           break;
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  484:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   USBD_HID_HandleTypeDef *hhid = (USBD_HID_HandleTypeDef *)pdev->pClassDataCmsit[pdev->classId];
  485:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c **** 
  486:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   if (hhid == NULL)
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 10
+ARM GAS  /tmp/ccShtuqU.s 			page 10
 
 
  487:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   {
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  541:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   * @param  length : pointer data length
  542:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   * @retval pointer to descriptor buffer
  543:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   */
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 11
+ARM GAS  /tmp/ccShtuqU.s 			page 11
 
 
  544:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c **** static uint8_t *USBD_HID_GetFSCfgDesc(uint16_t *length)
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  598:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c **** /**
  599:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   * @brief  USBD_HID_DataIn
  600:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   *         handle data IN Stage
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 12
+ARM GAS  /tmp/ccShtuqU.s 			page 12
 
 
  601:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   * @param  pdev: device instance
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
   62              		.cfi_startproc
   63              		@ args = 0, pretend = 0, frame = 0
   64              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 13
+ARM GAS  /tmp/ccShtuqU.s 			page 13
 
 
   65              		@ link register save eliminated.
@@ -739,7 +739,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
   76              	.L4:
   77              		.align	2
   78              	.L3:
-  79 0008 00000000 		.word	.LANCHOR0
+  79 0008 00000000 		.word	USBD_HID_DeviceQualifierDesc
   80              		.cfi_endproc
   81              	.LFE143:
   83              		.section	.text.USBD_HID_GetOtherSpeedCfgDesc,"ax",%progbits
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  111              		.loc 1 588 3 is_stmt 1 view .LVU20
  588:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   {
  112              		.loc 1 588 6 is_stmt 0 view .LVU21
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 14
+ARM GAS  /tmp/ccShtuqU.s 			page 14
 
 
  113 000c 08B1     		cbz	r0, .L6
@@ -810,7 +810,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  131              		.loc 1 595 1 view .LVU29
  132 001a 00BF     		.align	2
  133              	.L8:
- 134 001c 00000000 		.word	.LANCHOR1
+ 134 001c 00000000 		.word	USBD_HID_CfgDesc
  135              		.cfi_endproc
  136              	.LFE141:
  138              		.section	.text.USBD_HID_GetFSCfgDesc,"ax",%progbits
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  158              		.loc 1 546 3 is_stmt 1 view .LVU32
  546:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c **** 
  159              		.loc 1 546 33 is_stmt 0 view .LVU33
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 15
+ARM GAS  /tmp/ccShtuqU.s 			page 15
 
 
  160 0004 8121     		movs	r1, #129
@@ -881,7 +881,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  186              		.loc 1 555 1 view .LVU44
  187 001a 00BF     		.align	2
  188              	.L13:
- 189 001c 00000000 		.word	.LANCHOR1
+ 189 001c 00000000 		.word	USBD_HID_CfgDesc
  190              		.cfi_endproc
  191              	.LFE139:
  193              		.section	.text.USBD_HID_GetHSCfgDesc,"ax",%progbits
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  204              		@ args = 0, pretend = 0, frame = 0
  205              		@ frame_needed = 0, uses_anonymous_args = 0
  565:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   USBD_EpDescTypeDef *pEpDesc = USBD_GetEpDesc(USBD_HID_CfgDesc, HID_EPIN_ADDR);
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 16
+ARM GAS  /tmp/ccShtuqU.s 			page 16
 
 
  206              		.loc 1 565 1 is_stmt 0 view .LVU46
@@ -952,13 +952,13 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  241              		.loc 1 575 1 view .LVU59
  242 001a 00BF     		.align	2
  243              	.L18:
- 244 001c 00000000 		.word	.LANCHOR1
+ 244 001c 00000000 		.word	USBD_HID_CfgDesc
  245              		.cfi_endproc
  246              	.LFE140:
  248              		.section	.text.USBD_HID_Setup,"ax",%progbits
  249              		.align	1
  250              		.syntax unified
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 17
+ARM GAS  /tmp/ccShtuqU.s 			page 17
 
 
  251              		.thumb
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  370:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   {
  292              		.loc 1 370 3 view .LVU74
  293 001c 14F06004 		ands	r4, r4, #96
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 18
+ARM GAS  /tmp/ccShtuqU.s 			page 18
 
 
  294 0020 25D0     		beq	.L22
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  336              		.loc 1 381 11 is_stmt 1 view .LVU86
  360:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   uint16_t len;
  337              		.loc 1 360 22 is_stmt 0 view .LVU87
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 19
+ARM GAS  /tmp/ccShtuqU.s 			page 19
 
 
  338 004c 0024     		movs	r4, #0
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  375              		.loc 1 394 11 view .LVU104
  393:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****           break;
  376              		.loc 1 393 15 is_stmt 0 view .LVU105
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 20
+ARM GAS  /tmp/ccShtuqU.s 			page 20
 
 
  377 006a 0324     		movs	r4, #3
@@ -1182,7 +1182,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  401:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****           {
  409              		.loc 1 401 14 view .LVU112
  410 008a 032B     		cmp	r3, #3
- 411 008c 03D0     		beq	.L44
+ 411 008c 03D0     		beq	.L45
  407:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****             ret = USBD_FAIL;
  412              		.loc 1 407 13 is_stmt 1 view .LVU113
  413 008e FFF7FEFF 		bl	USBD_CtlError
@@ -1194,11 +1194,11 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  417 0092 0324     		movs	r4, #3
  418 0094 40E0     		b	.L21
  419              	.LVL31:
- 420              	.L44:
+ 420              	.L45:
  403:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****           }
  421              		.loc 1 403 13 is_stmt 1 view .LVU116
  403:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****           }
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 21
+ARM GAS  /tmp/ccShtuqU.s 			page 21
 
 
  422              		.loc 1 403 19 is_stmt 0 view .LVU117
@@ -1227,7 +1227,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  413:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****           {
  440              		.loc 1 413 14 view .LVU123
  441 00a8 222B     		cmp	r3, #34
- 442 00aa 09D0     		beq	.L45
+ 442 00aa 09D0     		beq	.L46
  418:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****           {
  443              		.loc 1 418 16 is_stmt 1 view .LVU124
  418:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****           {
@@ -1250,7 +1250,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  456              	.LVL37:
  420:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****             len = MIN(USB_HID_DESC_SIZ, req->wLength);
  457              		.loc 1 420 18 view .LVU130
- 458 00b8 1A49     		ldr	r1, .L47
+ 458 00b8 1A49     		ldr	r1, .L48
  459              	.LVL38:
  460              	.L38:
  429:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****           break;
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  429:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****           break;
  462              		.loc 1 429 17 is_stmt 0 view .LVU132
  463 00ba FFF7FEFF 		bl	USBD_CtlSendData
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 22
+ARM GAS  /tmp/ccShtuqU.s 			page 22
 
 
  464              	.LVL39:
@@ -1266,7 +1266,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  465              		.loc 1 430 11 is_stmt 1 view .LVU133
  466 00be 2BE0     		b	.L21
  467              	.LVL40:
- 468              	.L45:
+ 468              	.L46:
  415:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****             pbuf = HID_MOUSE_ReportDesc;
  469              		.loc 1 415 13 view .LVU134
  415:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****             pbuf = HID_MOUSE_ReportDesc;
@@ -1282,7 +1282,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  477              		.loc 1 416 13 is_stmt 1 view .LVU137
  416:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****           }
  478              		.loc 1 416 18 is_stmt 0 view .LVU138
- 479 00c8 1749     		ldr	r1, .L47+4
+ 479 00c8 1749     		ldr	r1, .L48+4
  480              	.LVL42:
  416:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****           }
  481              		.loc 1 416 18 view .LVU139
@@ -1314,11 +1314,11 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  433:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****           {
  500              		.loc 1 433 14 view .LVU147
  501 00da 032A     		cmp	r2, #3
- 502 00dc 03D0     		beq	.L46
+ 502 00dc 03D0     		beq	.L47
  439:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****             ret = USBD_FAIL;
  503              		.loc 1 439 13 is_stmt 1 view .LVU148
  504 00de FFF7FEFF 		bl	USBD_CtlError
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 23
+ARM GAS  /tmp/ccShtuqU.s 			page 23
 
 
  505              	.LVL46:
@@ -1329,7 +1329,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  508 00e2 0324     		movs	r4, #3
  509 00e4 18E0     		b	.L21
  510              	.LVL47:
- 511              	.L46:
+ 511              	.L47:
  435:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****           }
  512              		.loc 1 435 13 is_stmt 1 view .LVU151
  435:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****           }
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  544 0108 06E0     		b	.L21
  545              	.LVL52:
  546              	.L30:
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 24
+ARM GAS  /tmp/ccShtuqU.s 			page 24
 
 
  460:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****           ret = USBD_FAIL;
@@ -1427,18 +1427,18 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  579              		.loc 1 367 12 view .LVU174
  580 011e 0324     		movs	r4, #3
  581 0120 FAE7     		b	.L21
- 582              	.L48:
+ 582              	.L49:
  583 0122 00BF     		.align	2
- 584              	.L47:
- 585 0124 00000000 		.word	.LANCHOR3
- 586 0128 00000000 		.word	.LANCHOR2
+ 584              	.L48:
+ 585 0124 00000000 		.word	USBD_HID_Desc
+ 586 0128 00000000 		.word	HID_MOUSE_ReportDesc
  587              		.cfi_endproc
  588              	.LFE136:
  590              		.section	.text.USBD_HID_DeInit,"ax",%progbits
  591              		.align	1
  592              		.syntax unified
  593              		.thumb
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 25
+ARM GAS  /tmp/ccShtuqU.s 			page 25
 
 
  594              		.thumb_func
@@ -1492,13 +1492,13 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  630 0016 54F82300 		ldr	r0, [r4, r3, lsl #2]
  341:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   {
  631              		.loc 1 341 6 view .LVU188
- 632 001a 38B1     		cbz	r0, .L50
+ 632 001a 38B1     		cbz	r0, .L51
  343:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****     pdev->pClassDataCmsit[pdev->classId] = NULL;
  633              		.loc 1 343 5 is_stmt 1 view .LVU189
  634 001c FFF7FEFF 		bl	USBD_static_free
  635              	.LVL61:
  344:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   }
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 26
+ARM GAS  /tmp/ccShtuqU.s 			page 26
 
 
  636              		.loc 1 344 5 view .LVU190
@@ -1510,7 +1510,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  640 0024 B033     		adds	r3, r3, #176
  641 0026 0022     		movs	r2, #0
  642 0028 44F82320 		str	r2, [r4, r3, lsl #2]
- 643              	.L50:
+ 643              	.L51:
  347:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c **** }
  644              		.loc 1 347 3 is_stmt 1 view .LVU193
  348:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c **** 
@@ -1558,14 +1558,14 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  680              		.loc 1 285 36 view .LVU202
  681 0006 FFF7FEFF 		bl	USBD_static_malloc
  682              	.LVL64:
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 27
+ARM GAS  /tmp/ccShtuqU.s 			page 27
 
 
  287:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   {
  683              		.loc 1 287 3 is_stmt 1 view .LVU203
  287:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   {
  684              		.loc 1 287 6 is_stmt 0 view .LVU204
- 685 000a B0B1     		cbz	r0, .L58
+ 685 000a B0B1     		cbz	r0, .L59
  686 000c 0546     		mov	r5, r0
  293:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   pdev->pClassData = pdev->pClassDataCmsit[pdev->classId];
  687              		.loc 1 293 3 is_stmt 1 view .LVU205
@@ -1588,14 +1588,14 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  698 001c 237C     		ldrb	r3, [r4, #16]	@ zero_extendqisi2
  301:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   {
  699              		.loc 1 301 6 view .LVU212
- 700 001e A3B9     		cbnz	r3, .L55
+ 700 001e A3B9     		cbnz	r3, .L56
  303:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   }
  701              		.loc 1 303 5 is_stmt 1 view .LVU213
  303:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   }
  702              		.loc 1 303 46 is_stmt 0 view .LVU214
  703 0020 0723     		movs	r3, #7
  704 0022 6387     		strh	r3, [r4, #58]	@ movhi
- 705              	.L56:
+ 705              	.L57:
  311:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   pdev->ep_in[HIDInEpAdd & 0xFU].is_used = 1U;
  706              		.loc 1 311 3 is_stmt 1 view .LVU215
  311:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   pdev->ep_in[HIDInEpAdd & 0xFU].is_used = 1U;
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  314:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c **** 
  720              		.loc 1 314 3 is_stmt 1 view .LVU220
  314:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c **** 
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 28
+ARM GAS  /tmp/ccShtuqU.s 			page 28
 
 
  721              		.loc 1 314 15 is_stmt 0 view .LVU221
@@ -1627,12 +1627,12 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  316:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c **** }
  724              		.loc 1 316 3 is_stmt 1 view .LVU222
  725              	.LVL67:
- 726              	.L54:
+ 726              	.L55:
  317:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c **** 
  727              		.loc 1 317 1 is_stmt 0 view .LVU223
  728 0038 38BD     		pop	{r3, r4, r5, pc}
  729              	.LVL68:
- 730              	.L58:
+ 730              	.L59:
  289:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****     return (uint8_t)USBD_EMEM;
  731              		.loc 1 289 5 is_stmt 1 view .LVU224
  289:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****     return (uint8_t)USBD_EMEM;
@@ -1651,16 +1651,16 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  741              	.LVL69:
  290:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   }
  742              		.loc 1 290 12 view .LVU229
- 743 0048 F6E7     		b	.L54
+ 743 0048 F6E7     		b	.L55
  744              	.LVL70:
- 745              	.L55:
+ 745              	.L56:
  307:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   }
  746              		.loc 1 307 5 is_stmt 1 view .LVU230
  307:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   }
  747              		.loc 1 307 46 is_stmt 0 view .LVU231
  748 004a 0A23     		movs	r3, #10
  749 004c 6387     		strh	r3, [r4, #58]	@ movhi
- 750 004e E9E7     		b	.L56
+ 750 004e E9E7     		b	.L57
  751              		.cfi_endproc
  752              	.LFE134:
  754              		.section	.text.USBD_HID_SendReport,"ax",%progbits
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  766              		@ args = 0, pretend = 0, frame = 0
  767              		@ frame_needed = 0, uses_anonymous_args = 0
  483:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   USBD_HID_HandleTypeDef *hhid = (USBD_HID_HandleTypeDef *)pdev->pClassDataCmsit[pdev->classId];
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 29
+ARM GAS  /tmp/ccShtuqU.s 			page 29
 
 
  768              		.loc 1 483 1 is_stmt 0 view .LVU233
@@ -1699,7 +1699,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  780              		.loc 1 486 3 is_stmt 1 view .LVU236
  486:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   {
  781              		.loc 1 486 6 is_stmt 0 view .LVU237
- 782 000e BBB1     		cbz	r3, .L61
+ 782 000e BBB1     		cbz	r3, .L62
  496:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   {
  783              		.loc 1 496 3 is_stmt 1 view .LVU238
  496:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   {
@@ -1709,18 +1709,18 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  496:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   {
  787              		.loc 1 496 6 view .LVU240
  788 0018 BCF1030F 		cmp	ip, #3
- 789 001c 02D0     		beq	.L65
+ 789 001c 02D0     		beq	.L66
  505:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c **** }
  790              		.loc 1 505 10 view .LVU241
  791 001e 0024     		movs	r4, #0
  792              	.LVL73:
- 793              	.L60:
+ 793              	.L61:
  506:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c **** 
  794              		.loc 1 506 1 view .LVU242
  795 0020 2046     		mov	r0, r4
  796 0022 10BD     		pop	{r4, pc}
  797              	.LVL74:
- 798              	.L65:
+ 798              	.L66:
  498:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****     {
  799              		.loc 1 498 5 is_stmt 1 view .LVU243
  498:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****     {
@@ -1728,17 +1728,17 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  801 0024 1C7B     		ldrb	r4, [r3, #12]	@ zero_extendqisi2
  498:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****     {
  802              		.loc 1 498 8 view .LVU245
- 803 0026 0CB1     		cbz	r4, .L66
+ 803 0026 0CB1     		cbz	r4, .L67
  505:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c **** }
  804              		.loc 1 505 10 view .LVU246
  805 0028 0024     		movs	r4, #0
- 806 002a F9E7     		b	.L60
- 807              	.L66:
+ 806 002a F9E7     		b	.L61
+ 807              	.L67:
  500:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****       (void)USBD_LL_Transmit(pdev, HIDInEpAdd, report, len);
  808              		.loc 1 500 7 is_stmt 1 view .LVU247
  500:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****       (void)USBD_LL_Transmit(pdev, HIDInEpAdd, report, len);
  809              		.loc 1 500 19 is_stmt 0 view .LVU248
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 30
+ARM GAS  /tmp/ccShtuqU.s 			page 30
 
 
  810 002c 4FF0010C 		mov	ip, #1
@@ -1763,13 +1763,13 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  824              	.LVL78:
  501:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****     }
  825              		.loc 1 501 13 view .LVU254
- 826 003e EFE7     		b	.L60
+ 826 003e EFE7     		b	.L61
  827              	.LVL79:
- 828              	.L61:
+ 828              	.L62:
  488:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   }
  829              		.loc 1 488 12 view .LVU255
  830 0040 0324     		movs	r4, #3
- 831 0042 EDE7     		b	.L60
+ 831 0042 EDE7     		b	.L61
  832              		.cfi_endproc
  833              	.LFE137:
  835              		.section	.text.USBD_HID_GetPollingInterval,"ax",%progbits
@@ -1796,9 +1796,9 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  853 0000 037C     		ldrb	r3, [r0, #16]	@ zero_extendqisi2
  519:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   {
  854              		.loc 1 519 6 view .LVU260
- 855 0002 0BB9     		cbnz	r3, .L69
+ 855 0002 0BB9     		cbnz	r3, .L70
  524:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   }
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 31
+ARM GAS  /tmp/ccShtuqU.s 			page 31
 
 
  856              		.loc 1 524 22 view .LVU261
@@ -1808,7 +1808,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  859              		.loc 1 524 22 view .LVU262
  860 0006 7047     		bx	lr
  861              	.LVL82:
- 862              	.L69:
+ 862              	.L70:
  530:Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c ****   }
  863              		.loc 1 530 22 view .LVU263
  864 0008 0A20     		movs	r0, #10
@@ -1820,134 +1820,130 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 1
  868 000a 7047     		bx	lr
  869              		.cfi_endproc
  870              	.LFE138:
- 872              		.global	USBD_HID
- 873              		.section	.data.HID_MOUSE_ReportDesc,"aw"
- 874              		.align	2
- 875              		.set	.LANCHOR2,. + 0
- 878              	HID_MOUSE_ReportDesc:
- 879 0000 05010902 		.ascii	"\005\001\011\002\241\001\011\001\241\000\005\011\031"
- 879      A1010901 
- 879      A1000509 
- 879      19
- 880 000d 01290315 		.ascii	"\001)\003\025\000%\001\225\003u\001\201\002\225\001"
- 880      00250195 
- 880      03750181 
- 880      029501
- 881 001c 75058101 		.ascii	"u\005\201\001\005\001\0110\0111\0118\025\201%\177u\010"
- 881      05010930 
- 881      09310938 
- 881      1581257F 
- 881      7508
- 882 002e 95038106 		.ascii	"\225\003\201\006\300\011<\005\377\011\001\025\000%\001"
- 882      C0093C05 
- 882      FF090115 
- 882      002501
- 883 003d 75019502 		.ascii	"u\001\225\002\261\"u\006\225\001\261\001\300"
- 883      B1227506 
- 883      9501B101 
- 883      C0
- 884              		.section	.data.USBD_HID,"aw"
- 885              		.align	2
- 888              	USBD_HID:
- 889 0000 00000000 		.word	USBD_HID_Init
- 890 0004 00000000 		.word	USBD_HID_DeInit
- 891 0008 00000000 		.word	USBD_HID_Setup
- 892 000c 00000000 		.word	0
- 893 0010 00000000 		.word	0
- 894 0014 00000000 		.word	USBD_HID_DataIn
- 895 0018 00000000 		.word	0
- 896 001c 00000000 		.word	0
- 897 0020 00000000 		.word	0
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 32
+ 872              		.section	.data.HID_MOUSE_ReportDesc,"aw"
+ 873              		.align	2
+ 876              	HID_MOUSE_ReportDesc:
+ 877 0000 05010902 		.ascii	"\005\001\011\002\241\001\011\001\241\000\005\011\031"
+ 877      A1010901 
+ 877      A1000509 
+ 877      19
+ 878 000d 01290315 		.ascii	"\001)\003\025\000%\001\225\003u\001\201\002\225\001"
+ 878      00250195 
+ 878      03750181 
+ 878      029501
+ 879 001c 75058101 		.ascii	"u\005\201\001\005\001\0110\0111\0118\025\201%\177u\010"
+ 879      05010930 
+ 879      09310938 
+ 879      1581257F 
+ 879      7508
+ 880 002e 95038106 		.ascii	"\225\003\201\006\300\011<\005\377\011\001\025\000%\001"
+ 880      C0093C05 
+ 880      FF090115 
+ 880      002501
+ 881 003d 75019502 		.ascii	"u\001\225\002\261\"u\006\225\001\261\001\300"
+ 881      B1227506 
+ 881      9501B101 
+ 881      C0
+ 882              		.section	.data.USBD_HID_DeviceQualifierDesc,"aw"
+ 883              		.align	2
+ 886              	USBD_HID_DeviceQualifierDesc:
+ 887 0000 0A060002 		.ascii	"\012\006\000\002\000\000\000@\001\000"
+ 887      00000040 
+ 887      0100
+ 888              		.section	.data.USBD_HID_Desc,"aw"
+ 889              		.align	2
+ 892              	USBD_HID_Desc:
+ 893 0000 09211101 		.ascii	"\011!\021\001\000\001\"J\000"
+ 893      0001224A 
+ 893      00
+ 894              		.section	.data.USBD_HID_CfgDesc,"aw"
+ 895              		.align	2
+ARM GAS  /tmp/ccShtuqU.s 			page 32
 
 
- 898 0024 00000000 		.word	0
- 899 0028 00000000 		.word	USBD_HID_GetHSCfgDesc
- 900 002c 00000000 		.word	USBD_HID_GetFSCfgDesc
- 901 0030 00000000 		.word	USBD_HID_GetOtherSpeedCfgDesc
- 902 0034 00000000 		.word	USBD_HID_GetDeviceQualifierDesc
- 903              		.section	.data.USBD_HID_CfgDesc,"aw"
+ 898              	USBD_HID_CfgDesc:
+ 899 0000 09022200 		.ascii	"\011\002\"\000\001\001\000\3402\011\004\000\000\001"
+ 899      010100E0 
+ 899      32090400 
+ 899      0001
+ 900 000e 03010200 		.ascii	"\003\001\002\000\011!\021\001\000\001\"J\000\007\005"
+ 900      09211101 
+ 900      0001224A 
+ 900      000705
+ 901 001d 81030400 		.ascii	"\201\003\004\000\012"
+ 901      0A
+ 902              		.global	USBD_HID
+ 903              		.section	.data.USBD_HID,"aw"
  904              		.align	2
- 905              		.set	.LANCHOR1,. + 0
- 908              	USBD_HID_CfgDesc:
- 909 0000 09022200 		.ascii	"\011\002\"\000\001\001\000\3402\011\004\000\000\001"
- 909      010100E0 
- 909      32090400 
- 909      0001
- 910 000e 03010200 		.ascii	"\003\001\002\000\011!\021\001\000\001\"J\000\007\005"
- 910      09211101 
- 910      0001224A 
- 910      000705
- 911 001d 81030400 		.ascii	"\201\003\004\000\012"
- 911      0A
- 912              		.section	.data.USBD_HID_Desc,"aw"
- 913              		.align	2
- 914              		.set	.LANCHOR3,. + 0
- 917              	USBD_HID_Desc:
- 918 0000 09211101 		.ascii	"\011!\021\001\000\001\"J\000"
- 918      0001224A 
- 918      00
- 919              		.section	.data.USBD_HID_DeviceQualifierDesc,"aw"
- 920              		.align	2
- 921              		.set	.LANCHOR0,. + 0
- 924              	USBD_HID_DeviceQualifierDesc:
- 925 0000 0A060002 		.ascii	"\012\006\000\002\000\000\000@\001\000"
- 925      00000040 
- 925      0100
- 926              		.text
- 927              	.Letext0:
- 928              		.file 2 "c:\\program files (x86)\\gnu arm embedded toolchain\\10 2021.10\\arm-none-eabi\\include\\
- 929              		.file 3 "c:\\program files (x86)\\gnu arm embedded toolchain\\10 2021.10\\arm-none-eabi\\include\\
- 930              		.file 4 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h"
- 931              		.file 5 "Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h"
- 932              		.file 6 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h"
- 933              		.file 7 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h"
- 934              		.file 8 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h"
- 935              		.file 9 "USB_DEVICE/Target/usbd_conf.h"
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s 			page 33
+ 907              	USBD_HID:
+ 908 0000 00000000 		.word	USBD_HID_Init
+ 909 0004 00000000 		.word	USBD_HID_DeInit
+ 910 0008 00000000 		.word	USBD_HID_Setup
+ 911 000c 00000000 		.word	0
+ 912 0010 00000000 		.word	0
+ 913 0014 00000000 		.word	USBD_HID_DataIn
+ 914 0018 00000000 		.word	0
+ 915 001c 00000000 		.word	0
+ 916 0020 00000000 		.word	0
+ 917 0024 00000000 		.word	0
+ 918 0028 00000000 		.word	USBD_HID_GetHSCfgDesc
+ 919 002c 00000000 		.word	USBD_HID_GetFSCfgDesc
+ 920 0030 00000000 		.word	USBD_HID_GetOtherSpeedCfgDesc
+ 921 0034 00000000 		.word	USBD_HID_GetDeviceQualifierDesc
+ 922              		.text
+ 923              	.Letext0:
+ 924              		.file 2 "/usr/arm-none-eabi/include/machine/_default_types.h"
+ 925              		.file 3 "/usr/arm-none-eabi/include/sys/_stdint.h"
+ 926              		.file 4 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h"
+ 927              		.file 5 "Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h"
+ 928              		.file 6 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h"
+ 929              		.file 7 "USB_DEVICE/Target/usbd_conf.h"
+ 930              		.file 8 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h"
+ 931              		.file 9 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h"
+ARM GAS  /tmp/ccShtuqU.s 			page 33
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 usbd_hid.c
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:20     .text.USBD_HID_DataIn:00000000 $t
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:25     .text.USBD_HID_DataIn:00000000 USBD_HID_DataIn
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:53     .text.USBD_HID_GetDeviceQualifierDesc:00000000 $t
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:58     .text.USBD_HID_GetDeviceQualifierDesc:00000000 USBD_HID_GetDeviceQualifierDesc
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:79     .text.USBD_HID_GetDeviceQualifierDesc:00000008 $d
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:84     .text.USBD_HID_GetOtherSpeedCfgDesc:00000000 $t
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:89     .text.USBD_HID_GetOtherSpeedCfgDesc:00000000 USBD_HID_GetOtherSpeedCfgDesc
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:134    .text.USBD_HID_GetOtherSpeedCfgDesc:0000001c $d
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:139    .text.USBD_HID_GetFSCfgDesc:00000000 $t
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:144    .text.USBD_HID_GetFSCfgDesc:00000000 USBD_HID_GetFSCfgDesc
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:189    .text.USBD_HID_GetFSCfgDesc:0000001c $d
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:194    .text.USBD_HID_GetHSCfgDesc:00000000 $t
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:199    .text.USBD_HID_GetHSCfgDesc:00000000 USBD_HID_GetHSCfgDesc
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:244    .text.USBD_HID_GetHSCfgDesc:0000001c $d
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:249    .text.USBD_HID_Setup:00000000 $t
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:254    .text.USBD_HID_Setup:00000000 USBD_HID_Setup
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:305    .text.USBD_HID_Setup:00000032 $d
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:315    .text.USBD_HID_Setup:0000003c $t
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:389    .text.USBD_HID_Setup:00000078 $d
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:401    .text.USBD_HID_Setup:00000084 $t
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:585    .text.USBD_HID_Setup:00000124 $d
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:591    .text.USBD_HID_DeInit:00000000 $t
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:596    .text.USBD_HID_DeInit:00000000 USBD_HID_DeInit
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:653    .text.USBD_HID_Init:00000000 $t
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:658    .text.USBD_HID_Init:00000000 USBD_HID_Init
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:755    .text.USBD_HID_SendReport:00000000 $t
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:761    .text.USBD_HID_SendReport:00000000 USBD_HID_SendReport
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:836    .text.USBD_HID_GetPollingInterval:00000000 $t
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:842    .text.USBD_HID_GetPollingInterval:00000000 USBD_HID_GetPollingInterval
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:888    .data.USBD_HID:00000000 USBD_HID
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:874    .data.HID_MOUSE_ReportDesc:00000000 $d
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:878    .data.HID_MOUSE_ReportDesc:00000000 HID_MOUSE_ReportDesc
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:885    .data.USBD_HID:00000000 $d
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:904    .data.USBD_HID_CfgDesc:00000000 $d
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:908    .data.USBD_HID_CfgDesc:00000000 USBD_HID_CfgDesc
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:913    .data.USBD_HID_Desc:00000000 $d
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:917    .data.USBD_HID_Desc:00000000 USBD_HID_Desc
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:920    .data.USBD_HID_DeviceQualifierDesc:00000000 $d
-C:\Users\FIsh\AppData\Local\Temp\ccSIBy75.s:924    .data.USBD_HID_DeviceQualifierDesc:00000000 USBD_HID_DeviceQualifierDesc
+     /tmp/ccShtuqU.s:21     .text.USBD_HID_DataIn:00000000 $t
+     /tmp/ccShtuqU.s:26     .text.USBD_HID_DataIn:00000000 USBD_HID_DataIn
+     /tmp/ccShtuqU.s:53     .text.USBD_HID_GetDeviceQualifierDesc:00000000 $t
+     /tmp/ccShtuqU.s:58     .text.USBD_HID_GetDeviceQualifierDesc:00000000 USBD_HID_GetDeviceQualifierDesc
+     /tmp/ccShtuqU.s:79     .text.USBD_HID_GetDeviceQualifierDesc:00000008 $d
+     /tmp/ccShtuqU.s:886    .data.USBD_HID_DeviceQualifierDesc:00000000 USBD_HID_DeviceQualifierDesc
+     /tmp/ccShtuqU.s:84     .text.USBD_HID_GetOtherSpeedCfgDesc:00000000 $t
+     /tmp/ccShtuqU.s:89     .text.USBD_HID_GetOtherSpeedCfgDesc:00000000 USBD_HID_GetOtherSpeedCfgDesc
+     /tmp/ccShtuqU.s:134    .text.USBD_HID_GetOtherSpeedCfgDesc:0000001c $d
+     /tmp/ccShtuqU.s:898    .data.USBD_HID_CfgDesc:00000000 USBD_HID_CfgDesc
+     /tmp/ccShtuqU.s:139    .text.USBD_HID_GetFSCfgDesc:00000000 $t
+     /tmp/ccShtuqU.s:144    .text.USBD_HID_GetFSCfgDesc:00000000 USBD_HID_GetFSCfgDesc
+     /tmp/ccShtuqU.s:189    .text.USBD_HID_GetFSCfgDesc:0000001c $d
+     /tmp/ccShtuqU.s:194    .text.USBD_HID_GetHSCfgDesc:00000000 $t
+     /tmp/ccShtuqU.s:199    .text.USBD_HID_GetHSCfgDesc:00000000 USBD_HID_GetHSCfgDesc
+     /tmp/ccShtuqU.s:244    .text.USBD_HID_GetHSCfgDesc:0000001c $d
+     /tmp/ccShtuqU.s:249    .text.USBD_HID_Setup:00000000 $t
+     /tmp/ccShtuqU.s:254    .text.USBD_HID_Setup:00000000 USBD_HID_Setup
+     /tmp/ccShtuqU.s:305    .text.USBD_HID_Setup:00000032 $d
+     /tmp/ccShtuqU.s:315    .text.USBD_HID_Setup:0000003c $t
+     /tmp/ccShtuqU.s:389    .text.USBD_HID_Setup:00000078 $d
+     /tmp/ccShtuqU.s:401    .text.USBD_HID_Setup:00000084 $t
+     /tmp/ccShtuqU.s:585    .text.USBD_HID_Setup:00000124 $d
+     /tmp/ccShtuqU.s:892    .data.USBD_HID_Desc:00000000 USBD_HID_Desc
+     /tmp/ccShtuqU.s:876    .data.HID_MOUSE_ReportDesc:00000000 HID_MOUSE_ReportDesc
+     /tmp/ccShtuqU.s:591    .text.USBD_HID_DeInit:00000000 $t
+     /tmp/ccShtuqU.s:596    .text.USBD_HID_DeInit:00000000 USBD_HID_DeInit
+     /tmp/ccShtuqU.s:653    .text.USBD_HID_Init:00000000 $t
+     /tmp/ccShtuqU.s:658    .text.USBD_HID_Init:00000000 USBD_HID_Init
+     /tmp/ccShtuqU.s:755    .text.USBD_HID_SendReport:00000000 $t
+     /tmp/ccShtuqU.s:761    .text.USBD_HID_SendReport:00000000 USBD_HID_SendReport
+     /tmp/ccShtuqU.s:836    .text.USBD_HID_GetPollingInterval:00000000 $t
+     /tmp/ccShtuqU.s:842    .text.USBD_HID_GetPollingInterval:00000000 USBD_HID_GetPollingInterval
+     /tmp/ccShtuqU.s:873    .data.HID_MOUSE_ReportDesc:00000000 $d
+     /tmp/ccShtuqU.s:883    .data.USBD_HID_DeviceQualifierDesc:00000000 $d
+     /tmp/ccShtuqU.s:889    .data.USBD_HID_Desc:00000000 $d
+     /tmp/ccShtuqU.s:895    .data.USBD_HID_CfgDesc:00000000 $d
+     /tmp/ccShtuqU.s:907    .data.USBD_HID:00000000 USBD_HID
+     /tmp/ccShtuqU.s:904    .data.USBD_HID:00000000 $d
 
 UNDEFINED SYMBOLS
 USBD_GetEpDesc

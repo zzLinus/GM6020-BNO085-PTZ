@@ -35,13 +35,13 @@ extern "C" {
 extern CAN_HandleTypeDef hcan1;
 
 /* USER CODE BEGIN Private defines */
-#define SPEED_PID_TUNING 0        //ËÙ¶È»·¿ÆÑ§µ÷²Î
-#define ABS_ANGLE_PID_TUNING 1    //ÍÓÂÝÒÇÎ»ÖÃ»·¿ÆÑ§µ÷²Î
-#define REL_ANGLE_PID_TUNING 2    //±àÂëÆ÷Î»ÖÃ»·¿ÆÑ§µ÷²Î
-#define ABS_ANGLE_PID_TEST 3      //ÍÓÂÝÒÇÎ»ÖÃ»·PID²âÊÔ
-#define REL_ANGLE_PID_TEST 4      //±àÂëÆ÷Î»ÖÃ»·PID²âÊÔ
-#define ABS_ANGLE_STABLE_MODE 5   //ÍÓÂÝÒÇÎ»ÖÃÄ£Ê½
-#define REL_ANGLE_STABLE_MODE 6   //±àÂëÆ÷Î»ÖÃÄ£Ê½
+#define SPEED_PID_TUNING 0        //ï¿½Ù¶È»ï¿½ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½ï¿½
+#define ABS_ANGLE_PID_TUNING 1    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½Ã»ï¿½ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½ï¿½
+#define REL_ANGLE_PID_TUNING 2    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½Ã»ï¿½ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½ï¿½
+#define ABS_ANGLE_PID_TEST 3      //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½Ã»ï¿½PIDï¿½ï¿½ï¿½ï¿½
+#define REL_ANGLE_PID_TEST 4      //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½Ã»ï¿½PIDï¿½ï¿½ï¿½ï¿½
+#define ABS_ANGLE_STABLE_MODE 5   //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½Ä£Ê½
+#define REL_ANGLE_STABLE_MODE 6   //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½Ä£Ê½
 /* USER CODE END Private defines */
 
 void MX_CAN1_Init(void);

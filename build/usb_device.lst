@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccCDvnK2.s 			page 1
+ARM GAS  /tmp/ccsD6KI0.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -19,15 +19,15 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccCDvnK2.s 			page 1
   16              		.text
   17              	.Ltext0:
   18              		.cfi_sections	.debug_frame
-  19              		.section	.text.MX_USB_DEVICE_Init,"ax",%progbits
-  20              		.align	1
-  21              		.global	MX_USB_DEVICE_Init
-  22              		.syntax unified
-  23              		.thumb
-  24              		.thumb_func
-  26              	MX_USB_DEVICE_Init:
-  27              	.LFB134:
-  28              		.file 1 "USB_DEVICE/App/usb_device.c"
+  19              		.file 1 "USB_DEVICE/App/usb_device.c"
+  20              		.section	.text.MX_USB_DEVICE_Init,"ax",%progbits
+  21              		.align	1
+  22              		.global	MX_USB_DEVICE_Init
+  23              		.syntax unified
+  24              		.thumb
+  25              		.thumb_func
+  27              	MX_USB_DEVICE_Init:
+  28              	.LFB134:
    1:USB_DEVICE/App/usb_device.c **** /* USER CODE BEGIN Header */
    2:USB_DEVICE/App/usb_device.c **** /**
    3:USB_DEVICE/App/usb_device.c ****   ******************************************************************************
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccCDvnK2.s 			page 1
   28:USB_DEVICE/App/usb_device.c **** /* USER CODE BEGIN Includes */
   29:USB_DEVICE/App/usb_device.c **** 
   30:USB_DEVICE/App/usb_device.c **** /* USER CODE END Includes */
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccCDvnK2.s 			page 2
+ARM GAS  /tmp/ccsD6KI0.s 			page 2
 
 
   31:USB_DEVICE/App/usb_device.c **** 
@@ -117,8 +117,8 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccCDvnK2.s 			page 1
   42 0006 0C48     		ldr	r0, .L9+4
   43 0008 FFF7FEFF 		bl	USBD_Init
   44              	.LVL0:
-  45              		.loc 1 70 6 view .LVU3
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccCDvnK2.s 			page 3
+  45              		.loc 1 70 6 discriminator 1 view .LVU3
+ARM GAS  /tmp/ccsD6KI0.s 			page 3
 
 
   46 000c 48B9     		cbnz	r0, .L6
@@ -133,7 +133,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccCDvnK2.s 			page 1
   51 0010 0948     		ldr	r0, .L9+4
   52 0012 FFF7FEFF 		bl	USBD_RegisterClass
   53              	.LVL1:
-  54              		.loc 1 74 6 view .LVU6
+  54              		.loc 1 74 6 discriminator 1 view .LVU6
   55 0016 38B9     		cbnz	r0, .L7
   56              	.L3:
   75:USB_DEVICE/App/usb_device.c ****   {
@@ -145,7 +145,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccCDvnK2.s 			page 1
   59 0018 0748     		ldr	r0, .L9+4
   60 001a FFF7FEFF 		bl	USBD_Start
   61              	.LVL2:
-  62              		.loc 1 78 6 view .LVU9
+  62              		.loc 1 78 6 discriminator 1 view .LVU9
   63 001e 30B9     		cbnz	r0, .L8
   64              	.L1:
   79:USB_DEVICE/App/usb_device.c ****   {
@@ -178,45 +178,44 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccCDvnK2.s 			page 1
   81              		.loc 1 86 1 is_stmt 0 view .LVU14
   82 0032 F5E7     		b	.L1
   83              	.L10:
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccCDvnK2.s 			page 4
+ARM GAS  /tmp/ccsD6KI0.s 			page 4
 
 
   84              		.align	2
   85              	.L9:
   86 0034 00000000 		.word	FS_Desc
-  87 0038 00000000 		.word	.LANCHOR0
+  87 0038 00000000 		.word	hUsbDeviceFS
   88 003c 00000000 		.word	USBD_HID
   89              		.cfi_endproc
   90              	.LFE134:
   92              		.global	hUsbDeviceFS
   93              		.section	.bss.hUsbDeviceFS,"aw",%nobits
   94              		.align	2
-  95              		.set	.LANCHOR0,. + 0
-  98              	hUsbDeviceFS:
-  99 0000 00000000 		.space	732
-  99      00000000 
-  99      00000000 
-  99      00000000 
-  99      00000000 
- 100              		.text
- 101              	.Letext0:
- 102              		.file 2 "c:\\program files (x86)\\gnu arm embedded toolchain\\10 2021.10\\arm-none-eabi\\include\\
- 103              		.file 3 "c:\\program files (x86)\\gnu arm embedded toolchain\\10 2021.10\\arm-none-eabi\\include\\
- 104              		.file 4 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h"
- 105              		.file 5 "USB_DEVICE/App/usbd_desc.h"
- 106              		.file 6 "Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h"
- 107              		.file 7 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h"
- 108              		.file 8 "Core/Inc/main.h"
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccCDvnK2.s 			page 5
+  97              	hUsbDeviceFS:
+  98 0000 00000000 		.space	732
+  98      00000000 
+  98      00000000 
+  98      00000000 
+  98      00000000 
+  99              		.text
+ 100              	.Letext0:
+ 101              		.file 2 "/usr/arm-none-eabi/include/machine/_default_types.h"
+ 102              		.file 3 "/usr/arm-none-eabi/include/sys/_stdint.h"
+ 103              		.file 4 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h"
+ 104              		.file 5 "USB_DEVICE/App/usbd_desc.h"
+ 105              		.file 6 "Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h"
+ 106              		.file 7 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h"
+ 107              		.file 8 "Core/Inc/main.h"
+ARM GAS  /tmp/ccsD6KI0.s 			page 5
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 usb_device.c
-C:\Users\FIsh\AppData\Local\Temp\ccCDvnK2.s:20     .text.MX_USB_DEVICE_Init:00000000 $t
-C:\Users\FIsh\AppData\Local\Temp\ccCDvnK2.s:26     .text.MX_USB_DEVICE_Init:00000000 MX_USB_DEVICE_Init
-C:\Users\FIsh\AppData\Local\Temp\ccCDvnK2.s:86     .text.MX_USB_DEVICE_Init:00000034 $d
-C:\Users\FIsh\AppData\Local\Temp\ccCDvnK2.s:98     .bss.hUsbDeviceFS:00000000 hUsbDeviceFS
-C:\Users\FIsh\AppData\Local\Temp\ccCDvnK2.s:94     .bss.hUsbDeviceFS:00000000 $d
+     /tmp/ccsD6KI0.s:21     .text.MX_USB_DEVICE_Init:00000000 $t
+     /tmp/ccsD6KI0.s:27     .text.MX_USB_DEVICE_Init:00000000 MX_USB_DEVICE_Init
+     /tmp/ccsD6KI0.s:86     .text.MX_USB_DEVICE_Init:00000034 $d
+     /tmp/ccsD6KI0.s:97     .bss.hUsbDeviceFS:00000000 hUsbDeviceFS
+     /tmp/ccsD6KI0.s:94     .bss.hUsbDeviceFS:00000000 $d
 
 UNDEFINED SYMBOLS
 USBD_Init

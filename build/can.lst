@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s 			page 1
+ARM GAS  /tmp/ccrdXdER.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -19,15 +19,15 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s 			page 1
   16              		.text
   17              	.Ltext0:
   18              		.cfi_sections	.debug_frame
-  19              		.section	.text.MX_CAN1_Init,"ax",%progbits
-  20              		.align	1
-  21              		.global	MX_CAN1_Init
-  22              		.syntax unified
-  23              		.thumb
-  24              		.thumb_func
-  26              	MX_CAN1_Init:
-  27              	.LFB130:
-  28              		.file 1 "Core/Src/can.c"
+  19              		.file 1 "Core/Src/can.c"
+  20              		.section	.text.MX_CAN1_Init,"ax",%progbits
+  21              		.align	1
+  22              		.global	MX_CAN1_Init
+  23              		.syntax unified
+  24              		.thumb
+  25              		.thumb_func
+  27              	MX_CAN1_Init:
+  28              	.LFB130:
    1:Core/Src/can.c **** /* USER CODE BEGIN Header */
    2:Core/Src/can.c **** /**
    3:Core/Src/can.c ****   ******************************************************************************
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s 			page 1
   28:Core/Src/can.c **** 
   29:Core/Src/can.c **** /* CAN1 init function */
   30:Core/Src/can.c **** void MX_CAN1_Init(void)
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s 			page 2
+ARM GAS  /tmp/ccrdXdER.s 			page 2
 
 
   31:Core/Src/can.c **** {
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s 			page 1
   66              		.loc 1 47 25 is_stmt 0 view .LVU16
   67 0020 0122     		movs	r2, #1
   68 0022 4276     		strb	r2, [r0, #25]
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s 			page 3
+ARM GAS  /tmp/ccrdXdER.s 			page 3
 
 
   48:Core/Src/can.c ****   hcan1.Init.AutoWakeUp = DISABLE;
@@ -142,7 +142,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s 			page 1
   82              		.loc 1 52 7 is_stmt 0 view .LVU26
   83 002c FFF7FEFF 		bl	HAL_CAN_Init
   84              	.LVL0:
-  85              		.loc 1 52 6 view .LVU27
+  85              		.loc 1 52 6 discriminator 1 view .LVU27
   86 0030 00B9     		cbnz	r0, .L4
   87              	.L1:
   53:Core/Src/can.c ****   {
@@ -165,7 +165,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s 			page 1
   96              	.L6:
   97 003a 00BF     		.align	2
   98              	.L5:
-  99 003c 00000000 		.word	.LANCHOR0
+  99 003c 00000000 		.word	hcan1
  100 0040 00640040 		.word	1073767424
  101              		.cfi_endproc
  102              	.LFE130:
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s 			page 1
  111              	HAL_CAN_MspInit:
  112              	.LVL2:
  113              	.LFB131:
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s 			page 4
+ARM GAS  /tmp/ccrdXdER.s 			page 4
 
 
   61:Core/Src/can.c **** 
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s 			page 1
   85:Core/Src/can.c **** 
   86:Core/Src/can.c ****     /* CAN1 interrupt Init */
   87:Core/Src/can.c ****     HAL_NVIC_SetPriority(CAN1_TX_IRQn, 0, 0);
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s 			page 5
+ARM GAS  /tmp/ccrdXdER.s 			page 5
 
 
   88:Core/Src/can.c ****     HAL_NVIC_EnableIRQ(CAN1_TX_IRQn);
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s 			page 1
   74:Core/Src/can.c ****     /**CAN1 GPIO Configuration
  181              		.loc 1 74 5 view .LVU48
  182 0040 1B6B     		ldr	r3, [r3, #48]
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s 			page 6
+ARM GAS  /tmp/ccrdXdER.s 			page 6
 
 
  183 0042 03F00803 		and	r3, r3, #8
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s 			page 1
   89:Core/Src/can.c ****     HAL_NVIC_EnableIRQ(CAN1_RX0_IRQn);
  222              		.loc 1 89 5 view .LVU64
  223 0070 2246     		mov	r2, r4
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s 			page 7
+ARM GAS  /tmp/ccrdXdER.s 			page 7
 
 
  224 0072 2146     		mov	r1, r4
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s 			page 1
  104:Core/Src/can.c ****   /* USER CODE END CAN1_MspDeInit 0 */
  105:Core/Src/can.c ****     /* Peripheral clock disable */
  106:Core/Src/can.c ****     __HAL_RCC_CAN1_CLK_DISABLE();
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s 			page 8
+ARM GAS  /tmp/ccrdXdER.s 			page 8
 
 
  107:Core/Src/can.c **** 
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s 			page 1
  306              		.section	.text.HAL_CAN_ErrorCallback,"ax",%progbits
  307              		.align	1
  308              		.global	HAL_CAN_ErrorCallback
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s 			page 9
+ARM GAS  /tmp/ccrdXdER.s 			page 9
 
 
  309              		.syntax unified
@@ -489,7 +489,7 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s 			page 1
  315              	.LFB133:
  122:Core/Src/can.c **** 
  123:Core/Src/can.c **** /* USER CODE BEGIN 1 */
- 124:Core/Src/can.c **** /* CAN×ÜÏß´íÎó»Øµ÷º¯Êý£¬ÕâÀï·¢ÉúCAN×ÜÏß´íÎóºó±ØÐëÖØÆô½ÓÊÕÖÐ¶Ï£¬·ñÔò»áµ¼ÖÂCAN½ÓÊÕÒì³£ >*/
+ 124:Core/Src/can.c **** /* CANï¿½ï¿½ï¿½ß´ï¿½ï¿½ï¿½Øµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï·¢ï¿½ï¿½CANï¿½ï¿½ï¿½ß´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  125:Core/Src/can.c **** 
  126:Core/Src/can.c **** void HAL_CAN_ErrorCallback(CAN_HandleTypeDef *hcan)
  127:Core/Src/can.c **** {
@@ -512,50 +512,49 @@ ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s 			page 1
  329              	.L21:
  330 000e 00BF     		.align	2
  331              	.L20:
- 332 0010 00000000 		.word	.LANCHOR0
+ 332 0010 00000000 		.word	hcan1
  333              		.cfi_endproc
  334              	.LFE133:
  336              		.global	hcan1
  337              		.section	.bss.hcan1,"aw",%nobits
  338              		.align	2
- 339              		.set	.LANCHOR0,. + 0
- 342              	hcan1:
- 343 0000 00000000 		.space	40
- 343      00000000 
- 343      00000000 
- 343      00000000 
- 343      00000000 
- 344              		.text
- 345              	.Letext0:
- 346              		.file 2 "c:\\program files (x86)\\gnu arm embedded toolchain\\10 2021.10\\arm-none-eabi\\include\\
- 347              		.file 3 "c:\\program files (x86)\\gnu arm embedded toolchain\\10 2021.10\\arm-none-eabi\\include\\
- 348              		.file 4 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h"
- 349              		.file 5 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h"
- 350              		.file 6 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h"
- 351              		.file 7 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h"
- 352              		.file 8 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h"
- 353              		.file 9 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h"
- 354              		.file 10 "Core/Inc/main.h"
- 355              		.file 11 "Core/Inc/can.h"
-ARM GAS  C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s 			page 10
+ 341              	hcan1:
+ 342 0000 00000000 		.space	40
+ 342      00000000 
+ 342      00000000 
+ 342      00000000 
+ 342      00000000 
+ 343              		.text
+ 344              	.Letext0:
+ 345              		.file 2 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h"
+ 346              		.file 3 "/usr/arm-none-eabi/include/machine/_default_types.h"
+ 347              		.file 4 "/usr/arm-none-eabi/include/sys/_stdint.h"
+ 348              		.file 5 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h"
+ 349              		.file 6 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h"
+ 350              		.file 7 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h"
+ 351              		.file 8 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h"
+ 352              		.file 9 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h"
+ 353              		.file 10 "Core/Inc/can.h"
+ 354              		.file 11 "Core/Inc/main.h"
+ARM GAS  /tmp/ccrdXdER.s 			page 10
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 can.c
-C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s:20     .text.MX_CAN1_Init:00000000 $t
-C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s:26     .text.MX_CAN1_Init:00000000 MX_CAN1_Init
-C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s:99     .text.MX_CAN1_Init:0000003c $d
-C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s:105    .text.HAL_CAN_MspInit:00000000 $t
-C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s:111    .text.HAL_CAN_MspInit:00000000 HAL_CAN_MspInit
-C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s:237    .text.HAL_CAN_MspInit:00000084 $d
-C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s:243    .text.HAL_CAN_MspDeInit:00000000 $t
-C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s:249    .text.HAL_CAN_MspDeInit:00000000 HAL_CAN_MspDeInit
-C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s:300    .text.HAL_CAN_MspDeInit:0000002c $d
-C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s:307    .text.HAL_CAN_ErrorCallback:00000000 $t
-C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s:313    .text.HAL_CAN_ErrorCallback:00000000 HAL_CAN_ErrorCallback
-C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s:332    .text.HAL_CAN_ErrorCallback:00000010 $d
-C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s:342    .bss.hcan1:00000000 hcan1
-C:\Users\FIsh\AppData\Local\Temp\ccoWfAaA.s:338    .bss.hcan1:00000000 $d
+     /tmp/ccrdXdER.s:21     .text.MX_CAN1_Init:00000000 $t
+     /tmp/ccrdXdER.s:27     .text.MX_CAN1_Init:00000000 MX_CAN1_Init
+     /tmp/ccrdXdER.s:99     .text.MX_CAN1_Init:0000003c $d
+     /tmp/ccrdXdER.s:341    .bss.hcan1:00000000 hcan1
+     /tmp/ccrdXdER.s:105    .text.HAL_CAN_MspInit:00000000 $t
+     /tmp/ccrdXdER.s:111    .text.HAL_CAN_MspInit:00000000 HAL_CAN_MspInit
+     /tmp/ccrdXdER.s:237    .text.HAL_CAN_MspInit:00000084 $d
+     /tmp/ccrdXdER.s:243    .text.HAL_CAN_MspDeInit:00000000 $t
+     /tmp/ccrdXdER.s:249    .text.HAL_CAN_MspDeInit:00000000 HAL_CAN_MspDeInit
+     /tmp/ccrdXdER.s:300    .text.HAL_CAN_MspDeInit:0000002c $d
+     /tmp/ccrdXdER.s:307    .text.HAL_CAN_ErrorCallback:00000000 $t
+     /tmp/ccrdXdER.s:313    .text.HAL_CAN_ErrorCallback:00000000 HAL_CAN_ErrorCallback
+     /tmp/ccrdXdER.s:332    .text.HAL_CAN_ErrorCallback:00000010 $d
+     /tmp/ccrdXdER.s:338    .bss.hcan1:00000000 $d
 
 UNDEFINED SYMBOLS
 HAL_CAN_Init
